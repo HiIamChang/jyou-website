@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <img alt="Vue logo" src="../assets/jyou-logo.png">
+    <HelloWorld msg="Wait , jyou/'s website is building'"/>
+    <el-button @click="startHacking">Start</el-button>
   </div>
 </template>
 
@@ -14,5 +15,14 @@ import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
     HelloWorld,
   },
 })
-export default class HomeView extends Vue {}
+export default class HomeView extends Vue {
+  startHacking ():void {
+      this.$notify({
+        title: 'Imported successfully',
+        type: 'success',
+        message: 'If u can see it , it means element-ui already been imported.',
+        duration: 5000
+      })
+    }
+}
 </script>
