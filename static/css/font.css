@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'DeYiHei';
+    src: url('../font/SmileySans-Oblique.ttf.woff2') format('woff2');
+    /* 添加其他字体格式（如.ttf）和字体变体（如font-weight） */
+    font-weight: normal;
+    font-style: normal;
+  }
