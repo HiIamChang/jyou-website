@@ -1,33 +1,11 @@
 <template>
 	<div class="side-bar">
-		<el-menu unique-opened router
-		:default-active="onRoutes"
-		class="el-menu-vertical-demo"
-		theme="dark" >
-			<div v-for="(item,key) in items" :key="key">
-				<div v-if="item.children">
-					<el-submenu :index="item.index">
-                        <div slot="title">
-							<span :class="item.icon"></span>
-							{{ item.title }}
-						</div>
-                        <el-menu-item
-						v-for="(subItem,i) in item.children"
-						:key="i"
-						:index="subItem.index">
-						{{ subItem.title }}
-                        </el-menu-item>
-                    </el-submenu>
-				</div>
-				<div v-else>
-					<el-menu-item
-					:index="item.index">
-						<span :class="item.icon">
-						</span>
-						{{ item.title }}
-					</el-menu-item>
-				</div>
-			</div>
+		<el-menu
+		default-active="1"
+		class="el-menu-vertical-demo">
+      <el-menu-item index="1">Menu Item 1</el-menu-item>
+      <el-menu-item index="2">Menu Item 2</el-menu-item>
+      <el-menu-item index="3">Menu Item 3</el-menu-item>
 		</el-menu>
 	</div>
 </template>
@@ -66,15 +44,9 @@ export default class SideBar extends Vue {
 </script>
 
 <style scoped>
-	.side-bar {
-		position:absolute;
-		left:0;
-		top:70px;
-		bottom:0;
-		width:250px;
-		background-color: #23c175;
-	}
-	.side-bar ul{
-		height:100%;
-	}
+.el-menu-vertical-demo{
+	color:#fff;
+	background-color: #fff;
+}
+
 </style>

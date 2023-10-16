@@ -10,9 +10,11 @@
 <script type="ts">
 import { Component, Vue } from 'vue-property-decorator'
 import Header from './Head.vue';
+import SideBar from './SideBar.vue'
 @Component({
     Components:{
         Header,
+        SideBar
     }
 })
 export default class Page extends Vue{
