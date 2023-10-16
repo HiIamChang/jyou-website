@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Header from '../components/page/Head.vue'
-import SideBar from '../components/page/SiteBar.vue'
+import SideBar from '../components/page/SideBar.vue'
 
 Vue.use(VueRouter)
 

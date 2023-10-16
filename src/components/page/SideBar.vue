@@ -38,15 +38,15 @@ import { Route } from 'vue-router'
 import axios from 'axios'
 @Component
 export default class SideBar extends Vue {
-    private url = './static/data/sideBar.json';
+    private url = '../../../static/data/sideBar.json'
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     private items: any[] = [];
     $route!: Route;
     $axios = axios;
 
-	created() {
-        this.getData();
-    }
+	// created() {
+    //     this.getData();
+    // }
 
     get  onRoutes() {
         return this.$route.path;
