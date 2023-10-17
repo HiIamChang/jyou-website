@@ -4,9 +4,10 @@
     <div>
       <!-- 语言选择下拉选框 -->
       <el-dropdown @command="handLanguageCommand">
-        <div class="el-dropdown-link default-text-color">
-          <!--中文/English-->
-         切换语言 <!-- {{$t('lang.language')}} -->
+        <div
+        class="el-dropdown-link default-text-color">
+
+         Language <!-- {{$t('lang.language')}} -->
         </div>
         <el-dropdown-menu slot="dropdown">
           <el-dropdown-item command="cn">中文</el-dropdown-item>

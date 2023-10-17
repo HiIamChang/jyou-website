@@ -1,20 +1,25 @@
 <template>
-  <div class="home">
+  <div class="classinfo">
     <img alt="Vue logo" src="../assets/jyou-logo.png">
-    <HelloWorld msg="Wait , jyou/'s website is building'"/>
+    <h1>
+      Wait , jyou's website is building.
+    </h1>
+    <p>
+      Start Date:
+      <a  target="_blank" class="noopener">2023-10-11</a>
+    </p>
+    <p>
+      One recent favorite quote:
+      <a  target="_blank" class="noopener">できないならできるまでやる</a>
+    </p>
     <el-button @click="startHacking">Start</el-button>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
 
-@Component({
-  components: {
-    HelloWorld,
-  },
-})
+@Component
 export default class HomeView extends Vue {
   startHacking ():void {
       this.$notify({
@@ -26,3 +31,11 @@ export default class HomeView extends Vue {
     }
 }
 </script>
+<style scoped>
+.classinfo{
+  align-items: center;
+}
+.noopener{
+  color: #23c175;
+}
+</style>

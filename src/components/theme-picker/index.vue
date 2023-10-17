@@ -3,7 +3,7 @@
     <!-- 颜色下拉选框 -->
     <el-dropdown @command="handThemeCommand" @visible-change="handOpenOrClose">
       <span class="el-dropdown-link default-text-color">
-        切换主题<!-- {{$t('lang.theme')}} -->
+        Theme<!-- {{$t('lang.theme')}} -->
         <!-- 来自对应语言的'主题/theme'-->
         <i class="el-icon-arrow-down el-icon--right"></i>
       </span>
