@@ -5,7 +5,7 @@ Vue.use(VueI18n)
 
 function loadLocaleMessages() {
   const locales = require.context(
-    '../locales',
+    './locales',
     true,
     /[A-Za-z0-9-_,\s]+\.json$/i
   )
@@ -22,7 +22,7 @@ function loadLocaleMessages() {
 }
 
 export default new VueI18n({
-  locale: 'en',
-  fallbackLocale: 'en',
+  locale: 'zh',
+  fallbackLocale: 'zh',
   messages: loadLocaleMessages()
 })

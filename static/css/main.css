@@ -1,7 +1,7 @@
 *{
 	margin:0;
 	padding:0;
-	box-sizeing:border-box;
+	/* box-sizeing:border-box; */
 	-webkit-box-sizeing:border-box;
 	/* font-family: 'DeYiHei', sans-serif; */
 }
@@ -22,6 +22,9 @@ body{
     width: auto;
     padding:40px;
     overflow-y: auto;
+}
+.header,.logo{
+	font-family: 'DeYiHei';
 }
 .fade-enter,.fade-leave{
 	opacity: 0;

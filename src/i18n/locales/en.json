@@ -1,0 +1,27 @@
+{
+    "header":{
+        "personalCenter":"personalCenter",
+        "exit":"exit",
+        "Theme":"Theme",
+        "Language":"Language"
+    },
+    "sideBar":{
+        "table":"Table",
+        "elementUI-table-plugin" :"elementui-table-plugin",
+        "Chart":"Chart",
+        "vue-schart":"vue-schart",
+        "Form":"Form",
+        "BaseForm":"base-form",
+        "Notice":"Notice",
+        "AliertNotice":"aliert-notice",
+        "MessageNotice":"message-notice",
+        "NotificationNotice":"notification-notice",
+        "LoadingNotice":"loading-notice",
+        "DialogNotice":"dialog-notice",
+        "TipNotice":"tip-notice",
+        "PopoverNotice":"popover-notice",
+        "Tag":"Tag",
+        "Badge":"Badge",
+        "Progress":"Progress"
+    }
+}

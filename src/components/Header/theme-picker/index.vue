@@ -1,9 +1,10 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-    <!-- 颜色下拉选框 -->
-    <el-dropdown @command="handThemeCommand" @visible-change="handOpenOrClose">
+    <el-dropdown
+    @command="handThemeCommand"
+    @visible-change="handOpenOrClose">
       <span class="el-dropdown-link default-text-color">
-        Theme<!-- {{$t('lang.theme')}} -->
+        {{ $i18n.t('header.Theme') }}
         <!-- 来自对应语言的'主题/theme'-->
         <i class="el-icon-arrow-down el-icon--right"></i>
       </span>
@@ -22,7 +23,7 @@
   </template>
 
   <script>
-  const ORIGINAL_THEME = "#409EFF"; // default color
+  const ORIGINAL_THEME = "#23c175"; // default color
 
   export default {
     data() {

@@ -15,32 +15,13 @@
 				</el-dropdown-menu>
 			</el-dropdown>
 		</div>
-            <div class="el-item-box">
-            <lang-picker></lang-picker>
-            </div>
-            <div class="el-item-box">
-            <theme-picker></theme-picker>
-            </div>
         </div>
     </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component, } from 'vue-property-decorator'
-import LangPicker from '../lang-picker/index.vue'
-import ThemePicker from '../theme-picker/index.vue'
-import SideBar from './SideBar.vue'
-// import HeaderSetting from '../header-setting.vue'
-
-
-  @Component({
-    components:{
-        LangPicker,
-        ThemePicker,
-        SideBar,
-
-    }
-  })
+  @Component({})
 export default class Header extends Vue {
 
     header = ''

@@ -6,8 +6,7 @@
       <el-dropdown @command="handLanguageCommand">
         <div
         class="el-dropdown-link default-text-color">
-
-         Language <!-- {{$t('lang.language')}} -->
+        {{ $i18n.t('header.Language') }}
         </div>
         <el-dropdown-menu slot="dropdown">
           <el-dropdown-item command="cn">中文</el-dropdown-item>

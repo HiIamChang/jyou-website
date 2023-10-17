@@ -1,0 +1,27 @@
+{
+    "header":{
+        "personalCenter":"个人中心",
+        "exit":"返回上一级",
+        "Theme":"主题色",
+        "Language":"语言"
+    },
+    "sideBar":{
+        "table":"表格",
+        "elementUI-table-plugin" :"ElementUI 表格",
+        "Chart":"图表",
+        "vue-schart":"使用schart的vue图表",
+        "Form":"表单",
+        "BaseForm":"基础表单",
+        "Notice":"通知组件",
+        "AliertNotice":"aliert警告",
+        "MessageNotice":"message通知",
+        "NotificationNotice":"系统通知",
+        "LoadingNotice":"数据加载",
+        "DialogNotice":"弹框",
+        "TipNotice":"tooltips",
+        "PopoverNotice":"多功能弹出",
+        "Tag":"标签",
+        "Badge":"红点提示",
+        "Progress":"进度条"
+    }
+}

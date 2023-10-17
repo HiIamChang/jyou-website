@@ -3,6 +3,7 @@ import VueRouter, { RouteConfig } from 'vue-router'
 //页面主体部分
 import Page from '../components/page/Page.vue'
 import Readme from '../../views/page/Readme.vue'
+import PersonalCenter from '../../views/page/PersonalCenter.vue'
 
 
 
@@ -24,7 +25,7 @@ const routes: Array<RouteConfig> = [
       },
       {
         path:'personalCenter',
-        component:Readme
+        component:PersonalCenter
       },
     ]
   }

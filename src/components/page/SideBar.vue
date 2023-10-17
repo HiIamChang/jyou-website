@@ -40,6 +40,7 @@
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
+import i18n from '../../i18n/i18n'
 // import axios from 'axios'
 @Component
 export default class SideBar extends Vue {
@@ -51,85 +52,85 @@ export default class SideBar extends Vue {
     {
         "icon":"el-icon-apple",
         "index":"/page/table",
-        "title":"Table",
+        "title":i18n.t('sideBar.table'),
         "children":[
             {
                 "index":"/page/table/ele",
-                "title":"ElementUI Table Plugin"
+                "title":i18n.t('sideBar.elementUI-table-plugin')
             }
         ]
     },
     {
         "icon":"el-icon-pear",
         "index":"/page/chart",
-        "title":"Chart",
+        "title":i18n.t('sideBar.Chart'),
         "children":[
             {
                 "index":"/page/chart/schart",
-                "title":"vue-schart"
+                "title":i18n.t('sideBar.vue-schart')
             }
         ]
     },
     {
         "icon":"el-icon-orange",
         "index":"/page/form",
-        "title":"Form",
+        "title":i18n.t('sideBar.Form'),
         "children":[
             {
                 "index":"/page/form/baseform",
-                "title":"Base Form"
+                "title":i18n.t('sideBar.BaseForm')
             }
         ]
     },
     {
         "icon":"el-icon-cherry",
         "index":"/page/notice",
-        "title":"Notice",
+        "title":i18n.t('sideBar.Notice'),
         "children":[
             {
                 "index":"/page/notice/alert",
-                "title":"Aliert Notice"
+                "title":i18n.t('sideBar.AliertNotice')
             },
             {
                 "index":"/page/notice/message",
-                "title":"Message Notice"
+                "title":i18n.t('sideBar.MessageNotice')
             },
             {
                 "index":"/page/notice/notification",
-                "title":"Notification Notice"
+                "title":i18n.t('sideBar.NotificationNotice')
             },
             {
                 "index":"/page/notice/loading",
-                "title":"Loading Notice"
+                "title":i18n.t('sideBar.LoadingNotice')
             },
             {
                 "index":"/page/notice/dialog",
-                "title":"Dialog Notice"
+                "title":i18n.t('sideBar.DialogNotice')
             },
             {
                 "index":"/page/notice/tip",
-                "title":"Tip Notice"
+                "title":i18n.t('sideBar.TipNotice')
             },
             {
                 "index":"/page/notice/popover",
-                "title":"Popover Notice"
+                "title":i18n.t('sideBar.PopoverNotice')
             }
         ]
     },
     {
         "icon":"el-icon-watermelon",
         "index":"/page/tag",
-        "title":"Tag"
+        "title":i18n.t('sideBar.Tag')
     },
     {
         "icon":"el-icon-grape",
         "index":"/page/badge",
-        "title":"Badge"
+        "title":i18n.t('sideBar.Badge')
     },
     {
         "icon":"el-icon-sugar",
         "index":"/page/progress",
-        "title":"Progress"
+        "title":i18n.t('sideBar.Progress')
     }
 
     ]

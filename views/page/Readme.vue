@@ -13,19 +13,19 @@
                 <h1>plugin-system</h1>
                 <p>基于Vue.js 2.x系列 + Element UI 的组件联系成果物show</p>
                 <h2>此web搭建使用: </h2>
-                <el-checkbox  checked>Vue2</el-checkbox><br>
-                <el-checkbox  checked>TS</el-checkbox><br>
-                <el-checkbox  disabled checked>Vuex</el-checkbox><br>
-                <el-checkbox  checked>Router</el-checkbox><br>
-                <el-checkbox  disabled checked>VueI18n</el-checkbox><br>
-                <el-checkbox  checked>Element UI</el-checkbox><br>
+                <el-checkbox  disabled checked>Vue2</el-checkbox><br>
+                <el-checkbox  disabled checked>TypeScript</el-checkbox><br>
+                <el-checkbox   checked>Vuex</el-checkbox><br>
+                <el-checkbox  disabled checked>Router</el-checkbox><br>
+                <el-checkbox   checked>VueI18n</el-checkbox><br>
+                <el-checkbox  disabled checked>Element UI</el-checkbox><br>
                 <el-checkbox  >......</el-checkbox><br>
                 <h2>实现的组件功能：</h2>
-                <el-checkbox  checked>Layout</el-checkbox>
+                <el-checkbox  disabled checked>Layout</el-checkbox>
                 <br>
-                <el-checkbox  checked>导航栏</el-checkbox>
+                <el-checkbox  disabled checked>导航栏</el-checkbox>
                 <br>
-                <el-checkbox  checked>循环实现侧边栏</el-checkbox>
+                <el-checkbox  disabled checked>循环实现侧边栏</el-checkbox>
                 <br>
                 <el-checkbox >支持切换主题色</el-checkbox>
                 <br>
