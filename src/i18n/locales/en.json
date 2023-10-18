@@ -23,5 +23,13 @@
         "Tag":"Tag",
         "Badge":"Badge",
         "Progress":"Progress"
+    },
+    "tableLabels":{
+        "id":"Id",
+        "name":"name",
+        "category":"Category",
+        "address":"Address",
+        "desc":"Desc",
+        "date":"date"
     }
 }

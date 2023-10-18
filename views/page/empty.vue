@@ -4,8 +4,7 @@
 	</div>
 </template>
 
-<script>
-	export default{
-	
-	}
+<script lang="ts">
+import { Vue } from 'vue-property-decorator'
+export default class Empty extends Vue{}
 </script>

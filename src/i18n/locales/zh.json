@@ -23,5 +23,13 @@
         "Tag":"标签",
         "Badge":"红点提示",
         "Progress":"进度条"
+    },
+    "tableLabels":{
+        "id":"ID",
+        "name":"姓名",
+        "category":"归类",
+        "address":"地址",
+        "desc":"Tag标签",
+        "live":"生命状态"
     }
 }

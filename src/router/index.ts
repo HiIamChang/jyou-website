@@ -4,7 +4,11 @@ import VueRouter, { RouteConfig } from 'vue-router'
 import Page from '../components/page/Page.vue'
 import Readme from '../../views/page/Readme.vue'
 import PersonalCenter from '../../views/page/PersonalCenter.vue'
-
+import Empty from '../../views/page/empty.vue'
+//table
+import FirstTable from '../../views/table/firsttable.vue'
+//form
+import BaseForm from '../../views/form/baseform.vue'
 
 
 Vue.use(VueRouter)
@@ -27,6 +31,24 @@ const routes: Array<RouteConfig> = [
         path:'personalCenter',
         component:PersonalCenter
       },
+      {
+        path:'table',//表格组件
+        component:Empty,
+        children:[
+          {
+            path:'ele',
+            component:FirstTable
+          }
+      ]},
+      {
+        path:'form',//表格组件
+        component:Empty,
+        children:[
+          {
+            path:'baseform',
+            component:BaseForm
+          }
+      ]}
     ]
   }
 ]

@@ -11,7 +11,7 @@
         <el-dropdown-menu slot="dropdown">
           <el-dropdown-item command="cn">中文</el-dropdown-item>
           <el-dropdown-item command="en">English</el-dropdown-item>
-          <el-dropdown-item command="en">日本語</el-dropdown-item>
+          <el-dropdown-item command="ja">日本語</el-dropdown-item>
         </el-dropdown-menu>
       </el-dropdown>
     </div>

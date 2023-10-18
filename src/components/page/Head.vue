@@ -7,7 +7,7 @@
 			<el-dropdown
             trigger="click"
             @command="handleCommand">
-				<div class="el-icon-setting">
+				<div class=" ">
 				</div>
 				<el-dropdown-menu>
 					<el-dropdown-item command="personalCenter">{{ $i18n.t('header.personalCenter') }}</el-dropdown-item>
@@ -15,28 +15,28 @@
 				</el-dropdown-menu>
 			</el-dropdown>
 		</div>
-            <div class="el-item-box">
+            <!-- <div class="el-item-box">
             <lang-picker></lang-picker>
-            </div>
-            <div class="el-item-box">
+            </div> -->
+            <!-- <div class="el-item-box">
             <theme-picker></theme-picker>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component, } from 'vue-property-decorator'
-import LangPicker from '../lang-picker/index.vue'
-import ThemePicker from '../theme-picker/index.vue'
+// import LangPicker from '../lang-picker/index.vue'
+// import ThemePicker from '../theme-picker/index.vue'
 import SideBar from './SideBar.vue'
 // import HeaderSetting from '../header-setting.vue'
 
 
   @Component({
     components:{
-        LangPicker,
-        ThemePicker,
+        // LangPicker,
+        // ThemePicker,
         SideBar,
 
     }
