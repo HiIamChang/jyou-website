@@ -109,9 +109,7 @@ export default class Baseform extends Vue {
 .page-body{
   padding:20px;
 }
-.breadcrumb-item1{
-  color: #23c175;
-}
+
 .data-show{
   padding:20px;
 }

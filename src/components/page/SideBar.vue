@@ -85,37 +85,41 @@ export default class SideBar extends Vue {
     {
         "icon":"el-icon-cherry",
         "index":"/page/notice",
-        "title":i18n.t('sideBar.Notice'),
-        "children":[
-            {
-                "index":"/page/notice/alert",
-                "title":i18n.t('sideBar.AliertNotice')
-            },
-            {
-                "index":"/page/notice/message",
-                "title":i18n.t('sideBar.MessageNotice')
-            },
-            {
-                "index":"/page/notice/notification",
-                "title":i18n.t('sideBar.NotificationNotice')
-            },
-            {
-                "index":"/page/notice/loading",
-                "title":i18n.t('sideBar.LoadingNotice')
-            },
-            {
-                "index":"/page/notice/dialog",
-                "title":i18n.t('sideBar.DialogNotice')
-            },
-            {
-                "index":"/page/notice/tip",
-                "title":i18n.t('sideBar.TipNotice')
-            },
-            {
-                "index":"/page/notice/popover",
-                "title":i18n.t('sideBar.PopoverNotice')
-            }
-        ]
+        "title":i18n.t('sideBar.Notice')
+        // "children":[
+        //      {
+        //         "index":"/page/notice/notices",
+        //         "title":i18n.t('sideBar.AlertNotice')
+        //     },
+        //     {
+        //         "index":"/page/notice/alert",
+        //         "title":i18n.t('sideBar.AlertNotice')
+        //     },
+        //     {
+        //         "index":"/page/notice/message",
+        //         "title":i18n.t('sideBar.MessageNotice')
+        //     },
+        //     {
+        //         "index":"/page/notice/notification",
+        //         "title":i18n.t('sideBar.NotificationNotice')
+        //     },
+        //     {
+        //         "index":"/page/notice/loading",
+        //         "title":i18n.t('sideBar.LoadingNotice')
+        //     },
+        //     {
+        //         "index":"/page/notice/dialog",
+        //         "title":i18n.t('sideBar.DialogNotice')
+        //     },
+        //     {
+        //         "index":"/page/notice/tip",
+        //         "title":i18n.t('sideBar.TipNotice')
+        //     },
+        //     {
+        //         "index":"/page/notice/popover",
+        //         "title":i18n.t('sideBar.PopoverNotice')
+        //     }
+        // ]
     },
     {
         "icon":"el-icon-watermelon",

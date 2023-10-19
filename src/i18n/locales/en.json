@@ -13,7 +13,7 @@
         "Form":"Form",
         "BaseForm":"base-form",
         "Notice":"Notice",
-        "AliertNotice":"aliert-notice",
+        "AlertNotice":"alert-notice",
         "MessageNotice":"message-notice",
         "NotificationNotice":"notification-notice",
         "LoadingNotice":"loading-notice",

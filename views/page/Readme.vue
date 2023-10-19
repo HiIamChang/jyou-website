@@ -17,7 +17,7 @@
                 <el-checkbox  disabled checked>TypeScript</el-checkbox><br>
                 <el-checkbox   checked>Vuex</el-checkbox><br>
                 <el-checkbox  disabled checked>Router</el-checkbox><br>
-                <el-checkbox   checked>VueI18n</el-checkbox><br>
+                <el-checkbox  disabled checked>VueI18n</el-checkbox><br>
                 <el-checkbox  disabled checked>Element UI</el-checkbox><br>
                 <el-checkbox  >......</el-checkbox><br>
                 <h2>实现的组件功能：</h2>
@@ -33,13 +33,13 @@
                 <br>
                 <el-checkbox >分页图表</el-checkbox>
                 <br>
-                <el-checkbox >表单</el-checkbox>
+                <el-checkbox disabled checked >表单</el-checkbox>
                 <br>
-                <el-checkbox >消息通知</el-checkbox>
+                <el-checkbox disabled checked>消息通知</el-checkbox>
                 <br>
-                <el-checkbox >tag标签</el-checkbox>
+                <el-checkbox disabled checked>tag标签</el-checkbox>
                 <br>
-                <el-checkbox >进度条</el-checkbox>
+                <el-checkbox disabled checked>进度条</el-checkbox>
                 <br>
                 <el-checkbox >数据可视化</el-checkbox>
                 <br>

@@ -13,7 +13,7 @@
         "Form":"表单",
         "BaseForm":"基础表单",
         "Notice":"通知组件",
-        "AliertNotice":"aliert警告",
+        "AlertNotice":"alert警告",
         "MessageNotice":"message通知",
         "NotificationNotice":"系统通知",
         "LoadingNotice":"数据加载",
