@@ -17,7 +17,6 @@
         :key="tag"
         v-for="tag in dyTags"
         closable
-        :color="randomColor"
         :disable-transitions="false"
         @close="handleClose(tag)">
         {{ tag }}
@@ -42,44 +41,48 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import i18n from '../../src/i18n/i18n'
+// import i18n from '../../src/i18n/i18n'
+
 @Component
 export default class Tag extends Vue{
 
-dyTags = []
-inputVisible = false
-inputValue  = ''
+  dyTags:string[] = []
+  inputVisible = false
+  inputValue = ""
 
-handleClose(tag:string){
- this.dyTags.splice(this.dyTags.indexOf(tag), 1);
-}
-// un understand
-showInput() {
-  this.inputVisible = true;
-  this.$nextTick(()=> {
-    this.$refs.saveTagInput.$refs.input.focus();
-  });
-}
+  handleClose(tag:string){
+  this.dyTags.splice(this.dyTags.indexOf(tag), 1);
+  }
+  // un understand
+  showInput() {
+    this.inputVisible = true;
+    this.$nextTick(()=> {
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      this.$refs.saveTagInput.vueComponent.focus();
+    });
+  }
 
-handleInputConfirm() {
-        let inputValue = this.inputValue;
-        if (inputValue) {
-          this.dyTags.push(inputValue);
-        }
-        this.inputVisible = false;
-        this.inputValue = '';
-      }
-//用不了，改不了组件库的颜色
-randomColor() {
-  var letters = '0123456789ABCDEF';
-  var color = '#';
-  do {
-    for (var i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
+  handleInputConfirm() {
+    let inputValue = this.inputValue;
+    if (inputValue) {
+      this.dyTags.push(inputValue);
     }
-  } while (color === '#FFFFFF' || color === '#000000');
-  return color;
-}
+    this.inputVisible = false;
+    this.inputValue = '';
+  }
+
+// //用不了，改不了组件库的颜色
+// randomColor() {
+//   var letters = '0123456789ABCDEF';
+//   var color = '#';
+//   do {
+//     for (var i = 0; i < 6; i++) {
+//         color += letters[Math.floor(Math.random() * 16)];
+//     }
+//   } while (color === '#FFFFFF' || color === '#000000');
+//   return color;
+// }
 
 }
 </script>

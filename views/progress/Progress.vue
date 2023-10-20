@@ -54,11 +54,11 @@ export default class Progress extends Vue{
 
   percentage = 0
 
-  format(percentage){
+  format(percentage:number){
     return ` ${percentage} %`
   }
 
-  customColorMethod(percentage) {
+  customColorMethod(percentage:number) {
     if (percentage <= 20) {
       return 'red';
     } else if (percentage <= 70) {
